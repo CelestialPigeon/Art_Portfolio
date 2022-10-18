@@ -1,0 +1,418 @@
+body{
+
+padding-top: 100px;
+background-color: #ededed;
+
+
+}
+
+.jumbotron{
+
+background-color: #a8a8a8;
+
+
+}
+
+.header{
+
+width: 100%;
+height: 20%;
+
+background-color: #a8ffef;
+
+
+}
+
+.navbar{
+
+background-color: 	#000000;
+height: 100px;
+
+}
+
+.NavFont{
+
+font-size: 45px;
+font-weight: bold;
+
+
+}
+
+.NavSectionsFont{
+
+font-size: 25px;
+
+
+
+}
+
+.nav-item .dropdown-menu{
+
+position: absolute;
+
+}
+
+.dropdown-menu{
+
+background-color: #000000;
+
+
+}
+
+.dropdown-item{
+
+color: #ffffff;
+
+}
+
+.overlay{
+
+
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+left: 0;
+top: 0;
+background-color: #000000;
+background-color: rgba(0,0,0,0.9);
+overflow-x: hidden;
+transition: 0.5s;
+
+
+}
+
+.overlay-content{
+
+position: relative;
+top: 25%;
+width: 10%;
+text-align: center;
+margin-top:30px;
+
+
+}
+
+.overlay a{
+
+padding: 8px;
+text-decoration: none;
+font-size: 3vw;
+color: #818181;
+display: block;
+transition: 0.3s;
+
+
+}
+
+.overlay a:hover, .overlay a:focus{
+
+color: #f1f1f1;
+
+
+}
+
+.overlay .closebtn{
+
+padding-top: 100px;
+position: absolute;
+top: 20px;
+right: 45px;
+font-size: 3vw;
+
+
+}
+
+.menubtn{
+
+position: sticky;
+
+
+}
+
+.headings{
+
+font-size: 3vh;
+font-weight: bold;
+color: #000000;
+
+
+
+}
+
+.headings:hover{
+
+
+font-weight: bold;
+color:  #707070;
+text-decoration: none;
+
+
+}
+
+.headingsSmall{
+
+font-size: 2vh;
+font-weight: bold;
+color: #000000;
+
+}
+
+.headingsSmall:hover{
+
+font-weight: bold;
+color:  #707070;
+text-decoration: none;
+
+
+}
+
+.articleHeadings{
+
+font-size: 6vh;
+color: #000000;
+font-weight: bold;
+
+
+}
+
+.paragraphLarge{
+
+text-align: justify;
+
+}
+
+.paragraphSmall{
+
+text-align: justify;
+font-weight: normal;
+
+}
+
+
+
+.article1{
+
+
+background-repeat: no-repeat;
+
+border: 5px solid #000000;
+width: 40vw;
+height: 50vh;
+
+
+
+}
+
+.article2{
+
+background-repeat: no-repeat;
+
+border: 3px solid #000000;
+width: 15vw;
+height: 20vh;
+}
+
+.articleBig{
+
+background-repeat: no-repeat;
+
+border: 5px solid #000000;
+width: 70vw;
+height: 80vh;
+
+
+}
+
+#wooliesWaterAd{
+
+animation: pop 5s infinite;
+
+}
+
+#wooliesWaterText{
+
+animation: fontColour 5s infinite;
+
+}
+
+.footer{
+
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: #000000;
+border: 2px solid #000000;
+
+
+}
+
+.bottomInfo{
+
+width: 3vw;
+height: 5vh;
+
+}
+
+
+.carousel-inner>.carousel-item>img{
+
+
+width: 100%;
+
+
+
+}
+
+@media screen and (max-height:450px){
+
+
+.overlay a{ font-size: 20px }
+.overlay .closebtn{
+
+font-size: 40px;
+top: 15px;
+right: 35px;
+
+}
+
+}
+
+@media screen and (max-width: 414px){
+
+.article1{
+
+width: 35vw;
+height: 20vh;
+border: 3px solid #000000;
+
+}
+
+.article2{
+
+width: 35vw;
+height: 20vh;
+border: 3px solid #000000;
+
+}
+
+.bottomInfo{
+
+width: 5vw;
+height: 3vh;
+
+}
+
+
+.articleBig{
+
+width: 70vw;
+height: 35vh;
+
+
+}
+
+}
+
+
+@keyframes pop{
+
+0%{
+
+	width: 15vw;
+	height: 20vh;
+}
+
+50%{
+
+	width: 20vw;
+	height: 25vh;
+
+}
+
+100%{
+
+	width: 15vw;
+	height: 20vh;
+
+}
+
+
+}
+
+@keyframes fontColour{
+
+0%{
+
+	color: #ff3b21;
+
+}
+
+10%{
+
+	color: #ff8020;
+
+}
+
+20%{
+
+	color: #ffe420;
+
+}
+
+30%{
+
+	color: #97ff20;
+
+}
+
+40%{
+
+	color: #20ff27;
+
+}
+
+50%{
+
+	color: #23ffe5;
+
+}
+
+60%{
+
+	color: #1c98ff;
+
+}
+
+70%{
+
+	color: #5a19ff;
+
+}
+
+80%{
+
+	color: #e316ff;
+
+}
+
+90%{
+
+	color: #ff169a;
+
+}
+
+100%{
+
+	color: #ff164c;
+
+}
+
+
+}
+
+
+
+
+

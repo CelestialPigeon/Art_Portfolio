@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WWCMain</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale-1">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+
+		<a class="navbar-brand NavFont" href="index.html">WWC</a>
+
+		<ul class="navbar-nav ml-auto ">
+			
+			<li class="nav-item dropdown">
+				
+				<a href="index.html" class="nav-link dropdown-toggle NavSectionsFont" id="menuDrop" data-toggle="dropdown">
+					
+					Menu
+
+				</a>
+
+				<div class="dropdown-menu">
+					
+					<a href="sports.html" class="dropdown-item">Sports</a>
+
+					<a href="economics.html" class="dropdown-item">Economics</a>
+
+					<a href="weather.html" class="dropdown-item">Weather</a>
+
+				</div>
+
+			</li>
+
+		</ul>
+		
+	</nav>
+
+<div class="header">
+	
+	<h3 class="NavFont">Home</h3>
+
+</div>
+
+<div id="sticky-anchor">
+<button type="button" class="btn btn-outline-dark menubtn sticky left" onclick="openNav()">Options</button>
+</div>
+
+<br>
+
+<div class="container-fluid">
+
+	
+
+	<div id="myNav" class="overlay">
+		
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+
+		<div class="overlay-content">
+			
+			<a href="information.html">Information</a>
+			
+
+
+		</div>
+
+	</div>
+
+
+	<div class="row">
+		
+		<div class="col-md-6 text-center">
+			
+			<table class="table table-borderless">
+				
+				<tbody>
+					
+					<tr>
+						
+						<td>
+							
+							<a href="article.html" >
+							<img class="img-rounded article1"  src="Assets/Images/CatArticleImage.jpg"> <!--Image found at https://www.hillspet.com/cat-care/new-pet-parent/kitten-growth-timeline-by-week -->
+
+							</a>
+
+						</td>
+
+					</tr>
+
+					<tr>
+						
+						<td>
+							
+							<a class="headings" href="article.html">Cats! Everyone Needs One But For Reasons You Don't Expect!</a>
+
+						</td>
+
+
+					</tr>
+					<tr>
+						<td>
+							<p class="paragraphLarge">YOU'LL HAVE A HEALTHIER HEART. Owning any pet is good for your heart. Cats in particular lower your stress level—possibly since they don't require as much effort as dogs—and lower the amount of anxiety in your life. Petting a cat has a positive calming effect.</p> <!-- Article found at http://mentalfloss.com/article/51154/10-scientific-benefits-being-cat-owner -->
+
+						</td>
+
+					</tr>
+
+					<tr>
+						
+						<td>
+						</td>
+
+					</tr>
+					<tr>
+						
+						<td>
+							
+							<a href="article.html">
+							<img src="Assets/Images/ArcherArticleImage2.jpg" class="img-rounded article1"> <!-- Image from http://www.g33k-hq.com/film-movies-and-tv/tv/archer-season-10-promo-video/ -->
+							</a>
+
+						</td>
+
+					</tr>
+
+					<tr>
+						
+						<td>
+							
+							<a href="article.index" class="headings">How The Archer Crew Trained For Space</a> <!-- Headline from http://www.collegehumor.com/post/7060269/how-the-archer-crew-trained-for-space -->
+
+						</td>
+
+					</tr>
+
+					<tr>
+						
+						<td>
+							
+							<p class="paragraphLarge">Archer is back for its tenth season, and this year Sterling Archer, Lana Kane, and their crew of acid-tounged misfits are headed to SPACE. Titled Archer: 1999, this season the gang is the crew of the salvage ship M/V Seamus, and they will have to outsmart giant aliens, intergalactic pirates, and vicious bounty hunters--all while trying to survive each other.</p> <!--Article from http://www.collegehumor.com/post/7060269/how-the-archer-crew-trained-for-space  -->
+
+						</td>
+
+					</tr>
+
+				</tbody>
+
+
+			</table>
+
+		</div>
+
+		<div class="col-md-2">
+			
+
+		</div>
+
+		<div class="col-md-4 text-center">
+		
+		<table class="table table-borderless">
+			
+			<tbody>
+				
+				<tr>
+					
+					<td>
+
+						<a href="article.html">
+						<img class="img-rounded article2" src="Assets/Images/HolidayArticleImage.jpg"> <!-- Image found at https://www.kuoni.co.uk/caribbean-and-mexico -->
+						</a>
+					</td>
+
+				</tr>
+
+				<tr>
+					
+					<td>
+						<a href="article.html" class="headingsSmall">Finding The Perfect Holiday Location </a>
+						<p class="paragraphLarge">
+						"What is there, beyond the horizon?" – Travel articles give you the answers. By dint of them, you will be inspired to make discoveries.
+
+						</p>
+
+					</td>
+
+
+				</tr>
+
+				<tr>
+					
+					<td></td>
+
+				</tr>
+
+				<tr>
+					
+					<td>
+
+						<a href="article.html">
+						<img src="Assets/Images/ToysStoryArticleImage.jpg" class="img-rounded article2"> <!-- Image found at https://www.timeslive.co.za/sunday-times/lifestyle/2019-06-07-toy-story-a-tale-of-pixars-technological-evolution/ -->
+
+						</a>
+
+					</td>
+				</tr>
+
+				<tr>
+					
+					<td>
+						
+						<a href="article.html" class="headingsSmall">Pixar's Toy Story, What More Do We Want?</a>
+						<p class="paragraphLarge"> The idea of making a computer-animated feature film arose long before 'Toy Story', back in the early 1980s, when Pixar went from being Lucasfilm's computer division to an independent studio. </p> <!-- Article found at https://www.timeslive.co.za/sunday-times/lifestyle/2019-06-07-toy-story-a-tale-of-pixars-technological-evolution/ -->
+
+					</td>
+
+				</tr>
+
+
+				<tr>
+					
+					<td></td>
+
+				</tr>
+
+				<tr> 
+
+					<td>
+						
+						<a href="https://www.woolworths.co.za/prod/Food/Beverages-Juices/Water/Unflavoured-Water/Still-Natural-Spring-Water-5L-Max-16-bottles-per-Online-order/_/A-20151447?gclid=CjwKCAjwue3nBRACEiwAkpZhmSzG53eShKoIgS6AiYRRhxxBXpf2IsfhzEMt2yUoXaYD0mwgiOV__RoCPlYQAvD_BwE&gclsrc=aw.ds">
+						<img src="Assets/Images/WoolworthsWaterArticle.jpg" class="img-rounded article2" id="wooliesWaterAd"> <!--Image from https://www.woolworths.co.za/prod/Food/Beverages-Juices/Water/Unflavoured-Water/Still-Natural-Spring-Water-1-5L/_/A-20088866 -->
+						</a>
+
+					</td>
+
+				</tr>
+
+				<tr>
+					
+					<td>
+						
+						<a href="https://www.woolworths.co.za/prod/Food/Beverages-Juices/Water/Unflavoured-Water/Still-Natural-Spring-Water-5L-Max-16-bottles-per-Online-order/_/A-20151447?gclid=CjwKCAjwue3nBRACEiwAkpZhmSzG53eShKoIgS6AiYRRhxxBXpf2IsfhzEMt2yUoXaYD0mwgiOV__RoCPlYQAvD_BwE&gclsrc=aw.ds" class="headings"  id="wooliesWaterText">Check Out Our Water!</a>
+
+					</td>
+
+				</tr>
+
+			</tbody>
+
+
+		</table>
+
+		</div>
+		
+	</div>
+
+<div class="row">
+	
+<div class="col-md-12">
+	
+<table class="table table-borderless">
+	
+	<tbody>
+		
+		<tr>
+			
+			<td>
+				
+				<p class="NavSectionsFont">On the App Store Now</p>	
+
+			</td>
+
+			<td>
+				
+				<p class="NavSectionsFont">Follow Us On</p>
+
+			</td>
+
+		</tr>
+
+		<tr>
+			
+			<td>
+				
+				<img src="Assets/Images/AppImage.png">
+				<img src="Assets/Images/AppImage2.png">
+
+			</td>
+
+			<td>
+				
+				<img src="Assets/Images/facebook3.png" class="bottomInfo"> <!-- Image found at https://www.armstrongsgroup.com/contact/facebook-logo-black-and-white-png/ -->
+				<img src="Assets/Images/twitter.png" class="bottomInfo"> <!--Image found at https://www.iconsdb.com/white-icons/twitter-icon.html -->
+				<img src="Assets/Images/instagram2.png" class="bottomInfo"> <!-- Image found at https://sickboat.com/about/instagram-logo-black-png/ -->
+			</td>
+
+		</tr>
+
+		<tr>
+			<td>
+				
+			</td>
+		</tr>
+
+	</tbody>
+
+</table>
+
+</div>
+
+</div>
+
+<br>
+<br>
+
+<div class="footer">
+	
+<div id="demo" class="carousel slide" data-ride="carousel">
+	
+
+	<div class="carousel-inner">
+		
+		<div class="carousel-item active">
+			
+			<a href="https://www.woolworths.co.za/prod/Food/Beverages-Juices/Water/Unflavoured-Water/Still-Natural-Spring-Water-5L-Max-16-bottles-per-Online-order/_/A-20151447?gclid=CjwKCAjwue3nBRACEiwAkpZhmSzG53eShKoIgS6AiYRRhxxBXpf2IsfhzEMt2yUoXaYD0mwgiOV__RoCPlYQAvD_BwE&gclsrc=aw.ds"> 
+			<img src="Assets/Images/WooliesAd3.png">
+			</a>
+
+			<!-- Image found at https://www.woolworths.co.za/ -->
+
+		</div>
+
+		<div class="carousel-item">
+			
+			<a href="https://www.woolworths.co.za/prod/Food/Beverages-Juices/Water/Unflavoured-Water/Still-Natural-Spring-Water-5L-Max-16-bottles-per-Online-order/_/A-20151447?gclid=CjwKCAjwue3nBRACEiwAkpZhmSzG53eShKoIgS6AiYRRhxxBXpf2IsfhzEMt2yUoXaYD0mwgiOV__RoCPlYQAvD_BwE&gclsrc=aw.ds">
+			<img src="Assets/Images/WooliesAd.png">
+			</a>
+
+			<!-- Image found at https://www.woolworths.co.za/ -->
+
+		</div>
+
+		<div class="carousel-item">
+			
+			<a href="https://www.woolworths.co.za/prod/Food/Beverages-Juices/Water/Unflavoured-Water/Still-Natural-Spring-Water-5L-Max-16-bottles-per-Online-order/_/A-20151447?gclid=CjwKCAjwue3nBRACEiwAkpZhmSzG53eShKoIgS6AiYRRhxxBXpf2IsfhzEMt2yUoXaYD0mwgiOV__RoCPlYQAvD_BwE&gclsrc=aw.ds">
+			<img src="Assets/Images/WooliesAd2.png">
+			</a>
+
+			<!-- Image found at https://www.woolworths.co.za/ -->
+
+		</div>
+
+	</div>
+
+</div>
+
+</table>
+
+</div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="JS/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="JS/script.js"></script>
+
+
+
+</body>
+</html>

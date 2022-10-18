@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WWCMain</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale-1">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+
+		<a class="navbar-brand NavFont" href="index.html">WWC</a>
+
+		<ul class="navbar-nav ml-auto ">
+			
+			<li class="nav-item dropdown">
+				
+				<a href="index.html" class="nav-link dropdown-toggle NavSectionsFont" id="menuDrop" data-toggle="dropdown">
+					
+					Menu
+
+				</a>
+
+				<div class="dropdown-menu">
+					
+					<a href="sports.html" class="dropdown-item">Sports</a>
+
+					<a href="economics.html" class="dropdown-item">Economics</a>
+
+					<a href="weather.html" class="dropdown-item">Weather</a>
+
+				</div>
+
+			</li>
+
+		</ul>
+		
+	</nav>
+
+<div class="header">
+	
+	<h3 class="NavFont">Weather</h3>
+
+</div>
+
+<div id="sticky-anchor">
+<button type="button" class="btn btn-outline-dark menubtn sticky left" onclick="openNav()">Options</button>
+</div>
+
+<br>
+
+<div class="container-fluid">
+
+	
+
+	<div id="myNav" class="overlay">
+		
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+
+		<div class="overlay-content">
+			
+			<a href="information.html">Information</a>
+		
+
+
+		</div>
+
+	</div>
+
+
+	<div class="row">
+		
+		<div class="col-md-6 text-center">
+			
+			<table class="table table-borderless">
+				
+				<tbody>
+					
+					<tr>
+						
+						<td>
+							
+							<a href="article.html" >
+							<img class="img-rounded article1"  src="Assets/Images/ArticArticleImage.jpg"> <!--Image found at https://www.sciencedaily.com/releases/2019/05/190528140115.htm -->
+
+							</a>
+
+						</td>
+
+					</tr>
+
+					<tr>
+						
+						<td>
+							
+							<a class="headings" href="article.html">Global Warming! Destroying the artic and raising our latitude</a>
+
+						</td>
+
+						<!--Title found at https://www.sciencedaily.com/releases/2019/05/190528140115.htm -->
+
+
+					</tr>
+					<tr>
+						<td>
+							<p class="paragraphLarge">Atmospheric researchers at the Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research (AWI) have now developed a climate model that can accurately depict the frequently observed winding course of the jet stream, a major air current over the Northern Hemisphere. The breakthrough came when the scientists combined their global climate model with a new machine learning algorithm on ozone chemistry. Using their new combo-model, they can now show that the jet stream's wavelike course in winter and subsequent extreme weather conditions cold air outbreaks in Central Europe and North America are the direct result of climate change. Their findings were released in the Nature online portal Scientific Reports on 28 May 2019.</p> <!--Article found at https://www.sciencedaily.com/releases/2019/05/190528140115.htm -->
+
+						</td>
+
+					</tr>
+
+					<tr>
+						
+						<td>
+						</td>
+
+					</tr>
+					<tr>
+						
+						<td>
+							
+							<a href="article.html">
+							<img src="Assets/Images/WestAntArticArticleImage.jpg" class="img-rounded article1"> <!-- Image from https://www.sciencedaily.com/releases/2019/05/190516114601.htm -->
+							</a>
+
+						</td>
+
+					</tr>
+
+					<tr>
+						
+						<td>
+							
+							<a href="article.index" class="headings">Unstable landscapes within the Western Antartic. A critical disaster we have to face</a> <!-- Headline from https://www.sciencedaily.com/releases/2019/05/190516114601.htm -->
+
+						</td>
+
+					</tr>
+
+					<tr>
+						
+						<td>
+							
+							<p class="paragraphLarge">By combining 25 years of European Space Agency satellite altimeter measurements and a model of the regional climate, the UK Centre for Polar Observation and Modelling (CPOM) have tracked changes in snow and ice cover across the continent.</p> <!--Article from https://www.sciencedaily.com/releases/2019/05/190516114601.htm  -->
+
+						</td>
+
+					</tr>
+
+				</tbody>
+
+
+			</table>
+
+		</div>
+
+		<div class="col-md-2">
+			
+
+		</div>
+
+		<div class="col-md-4 text-center">
+		
+		<table class="table table-borderless">
+			
+			<tbody>
+				
+				<tr>
+					
+					<td>
+
+						<a href="article.html">
+						<img class="img-rounded article2" src="Assets/Images/IcelandArticleImage.jpg"> <!-- Image found at https://www.sciencedaily.com/releases/2019/05/190515115831.htm -->
+						</a>
+					</td>
+
+				</tr>
+
+				<tr>
+					
+					<td>
+						<a href="article.html" class="headingsSmall">Icelands volcano, framed for the cause of the extreme heat wave </a>
+						<p class="paragraphLarge">
+						An enormous volcanic eruption on Iceland in 1783-84 did not cause an extreme summer heat wave in Europe. But, as Benjamin Franklin speculated, the eruption triggered an unusually cold winter, according to a Rutgers-led study.
+
+						</p>
+
+						<!-- Article found at https://www.sciencedaily.com/releases/2019/05/190515115831.htm -->
+
+					</td>
+
+
+				</tr>
+
+				<tr>
+					
+					<td></td>
+
+				</tr>
+
+				<tr>
+					
+					<td>
+
+						<a href="article.html">
+						<img src="Assets/Images/GravityArticleImage.jpg" class="img-rounded article2"> <!-- Image found at https://www.sciencedaily.com/releases/2019/04/190416132155.htm -->
+
+						</a>
+
+					</td>
+				</tr>
+
+				<tr>
+					
+					<td>
+						
+						<a href="article.html" class="headingsSmall">What Earth's gravity reveals about climate change</a>
+						<p class="paragraphLarge"> On March 17, 2002, the German-US satellite duo GRACE (Gravity Recovery and Climate Experiment) were launched to map the global gravitational field with unprecedented precision. After all, the mission lasted a good 15 years -- more than three times as long as expected. When the two satellites burnt up in the Earth's atmosphere at the end of 2017 and beginning of 2018, respectively, they had recorded the Earth's gravitational field and its changes over time in more than 160 months. </p> <!-- Article found at https://www.sciencedaily.com/releases/2019/04/190416132155.htm -->
+
+					</td>
+
+				</tr>
+
+
+				<tr>
+					
+					<td></td>
+
+				</tr>
+
+				<tr> 
+
+					<td>
+						
+						<a href="https://www.woolworths.co.za/prod/Food/Beverages-Juices/Water/Unflavoured-Water/Still-Natural-Spring-Water-5L-Max-16-bottles-per-Online-order/_/A-20151447?gclid=CjwKCAjwue3nBRACEiwAkpZhmSzG53eShKoIgS6AiYRRhxxBXpf2IsfhzEMt2yUoXaYD0mwgiOV__RoCPlYQAvD_BwE&gclsrc=aw.ds">
+						<img src="Assets/Images/WoolworthsWaterArticle.jpg" class="img-rounded article2" id="wooliesWaterAd"> <!--Image from https://www.woolworths.co.za/prod/Food/Beverages-Juices/Water/Unflavoured-Water/Still-Natural-Spring-Water-1-5L/_/A-20088866 -->
+						</a>
+
+					</td>
+
+				</tr>
+
+				<tr>
+					
+					<td>
+						
+						<a href="https://www.woolworths.co.za/prod/Food/Beverages-Juices/Water/Unflavoured-Water/Still-Natural-Spring-Water-5L-Max-16-bottles-per-Online-order/_/A-20151447?gclid=CjwKCAjwue3nBRACEiwAkpZhmSzG53eShKoIgS6AiYRRhxxBXpf2IsfhzEMt2yUoXaYD0mwgiOV__RoCPlYQAvD_BwE&gclsrc=aw.ds" class="headings"  id="wooliesWaterText">Check Out Our Water!</a>
+
+					</td>
+
+				</tr>
+
+			</tbody>
+
+
+		</table>
+
+		</div>
+		
+	</div>
+
+<div class="row">
+	
+<div class="col-md-12">
+	
+<table class="table table-borderless">
+	
+	<tbody>
+		
+		<tr>
+			
+			<td>
+				
+				<p class="NavSectionsFont">On the App Store Now</p>	
+
+			</td>
+
+			<td>
+				
+				<p class="NavSectionsFont">Follow Us On</p>
+
+			</td>
+
+		</tr>
+
+		<tr>
+			
+			<td>
+				
+				<img src="Assets/Images/AppImage.png">
+				<img src="Assets/Images/AppImage2.png">
+
+			</td>
+
+			<td>
+				
+				<img src="Assets/Images/facebook3.png" class="bottomInfo"> <!-- Image found at https://www.armstrongsgroup.com/contact/facebook-logo-black-and-white-png/ -->
+				<img src="Assets/Images/twitter.png" class="bottomInfo"> <!--Image found at https://www.iconsdb.com/white-icons/twitter-icon.html -->
+				<img src="Assets/Images/instagram2.png" class="bottomInfo"> <!-- Image found at https://sickboat.com/about/instagram-logo-black-png/ -->
+			</td>
+
+		</tr>
+
+		<tr>
+			<td>
+				
+			</td>
+		</tr>
+
+	</tbody>
+
+</table>
+
+</div>
+
+</div>
+
+<br>
+<br>
+
+<div class="footer">
+	
+<div id="demo" class="carousel slide" data-ride="carousel">
+	
+
+	<div class="carousel-inner">
+		
+		<div class="carousel-item active">
+			
+			<a href="https://www.woolworths.co.za/prod/Food/Beverages-Juices/Water/Unflavoured-Water/Still-Natural-Spring-Water-5L-Max-16-bottles-per-Online-order/_/A-20151447?gclid=CjwKCAjwue3nBRACEiwAkpZhmSzG53eShKoIgS6AiYRRhxxBXpf2IsfhzEMt2yUoXaYD0mwgiOV__RoCPlYQAvD_BwE&gclsrc=aw.ds"> 
+			<img src="Assets/Images/WooliesAd3.png">
+			</a>
+
+			<!-- Image found at https://www.woolworths.co.za/ -->
+
+		</div>
+
+		<div class="carousel-item">
+			
+			<a href="https://www.woolworths.co.za/prod/Food/Beverages-Juices/Water/Unflavoured-Water/Still-Natural-Spring-Water-5L-Max-16-bottles-per-Online-order/_/A-20151447?gclid=CjwKCAjwue3nBRACEiwAkpZhmSzG53eShKoIgS6AiYRRhxxBXpf2IsfhzEMt2yUoXaYD0mwgiOV__RoCPlYQAvD_BwE&gclsrc=aw.ds">
+			<img src="Assets/Images/WooliesAd.png">
+			</a>
+
+			<!-- Image found at https://www.woolworths.co.za/ -->
+
+		</div>
+
+		<div class="carousel-item">
+			
+			<a href="https://www.woolworths.co.za/prod/Food/Beverages-Juices/Water/Unflavoured-Water/Still-Natural-Spring-Water-5L-Max-16-bottles-per-Online-order/_/A-20151447?gclid=CjwKCAjwue3nBRACEiwAkpZhmSzG53eShKoIgS6AiYRRhxxBXpf2IsfhzEMt2yUoXaYD0mwgiOV__RoCPlYQAvD_BwE&gclsrc=aw.ds">
+			<img src="Assets/Images/WooliesAd2.png">
+			</a>
+
+			<!-- Image found at https://www.woolworths.co.za/ -->
+
+		</div>
+
+	</div>
+
+</div>
+
+</table>
+
+</div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="JS/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="JS/script.js"></script>
+
+
+
+</body>
+</html>
